@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 900px;
+}
+.container-1{
+    border-radius: 20px;
+    display: flex;
+    max-height: 50px;
+}
+.container-1 h1 p{
+    margin: 20px;
+}
+.cor{
+    background: #ccc;
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: center 10px;
+    margin: 20px auto;
+    width: 500px;
+    height: 380px;
+    background-color: hsl(263, 55%, 52%);
+    margin: 20px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.cor .p1{
+    color: white;
+    margin: 2px;
+}
+.cor .p2{
+    color: #ccc;
+}
+img{
+    height: 50px;
+    border:  2px solid #ccc;
+    border-radius: 30px;
+    margin: 30px 20px;
+}
+.perfil-1, .perfil-2{
+    margin: 30px 10px;
+}
+.perfil-1 h1, .jona2{
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.daniel-p, .daniel-h1{
+    margin: 40px 25px;
+}
+.daniel-h1{
+    color: hsl(210, 46%, 95%);
+}
+.daniel-p{
+    color: hsl(0, 0%, 81%);
+}
+.jona2{
+    background-color: hsl(217, 19%, 35%);
+    margin: 20px 20px;
+    width: 300px;
+    height: 380px;
+    padding: 20px;
+}
+.perfil-2{
+    display: flex;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+.nomes-2{
+    margin: 25px 10px;
+}
+.nomes-2 .p1{
+    color: hsl(210, 46%, 95%);
+    margin: 2px 0;
+}
+.nomes-2 .p2{
+    color: hsl(0, 0%, 81%);
+}
+.jona-h1{
+    color: white;
+    margin: 25px 0;
+    margin-top: -50px;
+}
+.jona-p{
+    color:hsl(0, 0%, 81%);
+    margin: 10px 0;
+    padding-top: 40px;
+}
+.jeane-3{
+    grid-column: 1;
+    grid-row: 2;
+    width: 300px;
+    margin-top: -400px;
+    margin-left: 20px;
+    height: 380px; 
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid #e4e4e4;
+    border-radius: 10px;
+}
+.perfil-3{
+    display: flex; 
+}
+.nomes-3{
+    margin: 25px 10px;
+}
+.nome-p1{
+    margin: 2px;
+    color: hsl(0, 1%, 27%);
+}
+.nome-p2{
+    color: #969696;
+}
+.jeane-3 > h1{
+    color: hsl(0, 1%, 27%);
+    margin: 20px;
+}
+.jeane-3 > p{
+    color: hsl(0, 0%, 56%);
+    margin: 20px;
+}
+.patrick-4{
+    grid-column: 2;
+    grid-row: 2;
+    margin: 20px;
+    margin-top: -400px;
+    width: 508px;
+    height: 380px;
+    margin-left: -185px;
+    background-color: hsla(216, 19%, 20%, 0.929);
+    padding: 10px;
+    border-radius: 10px;
+}
+.perfil-4{
+    display: flex;
+}
+.nomes-4{
+    margin-top: 25px;
+}
+.nome-4{
+    margin: 3px;
+    color: white;
+}
+.nome-4-1{
+    color: rgb(128, 127, 127);
+}
+.patrick-h1{
+    margin: 15px;
+    color: white;
+}
+.patrick-p{
+    margin: 15px;
+    color: #969696;
+}
+.patrick-img{
+    border: 2px solid hsl(263, 55%, 52%);
+}
+.kira-5{
+    grid-column: 3 / 5;
+    grid-row: 1;
+    height: 800px;
+    width: 340px;
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid #e4e4e4;
+    margin: 20px;
+    border-radius: 10px;
+}
+.perfil-5{
+    display: flex;
+}
+.nomes-5{
+    margin-top: 25px;
+}
+.kira-h1{
+    margin: 15px;
+    color: #615b5b;
+}
+.kira-p{
+    margin: 65px 20px;
+    color: rgb(163, 160, 160);
+}
+.attribution { 
+    font-size: 15px; 
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none; 
+}
+.attribution a:hover { 
+    color: hsl(0, 92%, 50%);
+}
+@media (max-width:375px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    #container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto 900px;
+    }
+    .container-1{
+        border-radius: 20px;
+        display: flex;
+        max-height: 50px;
+    }
+    .container-1 h1 p{
+        margin: 20px;
+    }
+    .cor{
+        background-image: url(../images/bg-pattern-quotation.svg);
+        background-repeat: no-repeat;
+        background: #ccc;
+        margin: 10px auto;
+        width: 300px;
+        height: 380px;
+        background-color: hsl(263, 55%, 52%);
+        border-radius: 10px;
+    }
+    .cor .p1{
+        color: white;
+        margin: 2px;
+    }
+    .cor .p2{
+        color: #ccc;
+    }
+    img{
+        height: 50px;
+        border:  2px solid #ccc;
+        border-radius: 30px;
+        margin: 30px 20px;
+    }
+    .perfil-1, .perfil-2{
+        margin: 30px 10px;
+    }
+    .perfil-1 h1, .jona2{
+        margin: 20px 0;
+        border-radius: 10px;
+    }
+    .daniel-p, .daniel-h1{
+        margin: 40px 25px;
+    }
+    .daniel-h1{
+        color: hsl(210, 46%, 95%);
+        font-size: 15px;
+    }
+    .daniel-p{
+        color: hsl(0, 0%, 81%);
+        font-size: 12px;
+        margin-top: -10px;
+    }
+    .jona2{
+        grid-column: 1;
+        grid-row: 2;
+        background-color: hsl(217, 19%, 35%);
+        margin: 20px 40px;
+        width: 300px;
+        height: 300px;
+        padding: 20px;
+    }
+    .perfil-2{
+        display: flex;
+        margin-top: -20px;
+        margin-left: -20px;
+    }
+    .nomes-2{
+        margin: 25px 10px;
+    }
+    .nomes-2 .p1{
+        color: hsl(210, 46%, 95%);
+        margin: 2px 0;
+    }
+    .nomes-2 .p2{
+        color: hsl(0, 0%, 81%);
+    }
+    .jona-h1{
+        color: white;
+        font-size: 15px;
+    }
+    .jona-p{
+        color:hsl(0, 0%, 81%);
+        margin: 10px 0;
+        padding-top: 40px;
+    }
+    .jeane-3{
+        grid-column: 1;
+        grid-row: 3;
+        width: 300px;
+        margin-top: -550px;
+        margin-left: 40px;
+        height: 300px; 
+        background-color: hsl(0, 0%, 100%);
+        border: 2px solid #e4e4e4;
+        border-radius: 10px;
+    }
+    .perfil-3{
+        display: flex; 
+    }
+    .nomes-3{
+        margin: 25px 10px;
+    }
+    .nome-p1{
+        margin: 2px;
+        color: hsl(0, 1%, 27%);
+    }
+    .nome-p2{
+        color: #969696;
+    }
+    .jeane-3 > h1{
+        color: hsl(0, 1%, 27%);
+        margin: 20px;
+        margin-top: -20px;
+    }
+    .jeane-3 > p{
+        color: hsl(0, 0%, 56%);
+        margin: 20px;
+        margin-top: 40px;
+
+    }
+    .patrick-4{
+        grid-column: 1;
+        grid-row: 4;
+        margin: 20px 40px;
+        margin-top: -220px;
+        width: 300px;
+        height: 380px;
+        background-color: hsla(216, 19%, 20%, 0.929);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .perfil-4{
+        display: flex;
+    }
+    .nomes-4{
+        margin-top: 25px;
+    }
+    .nome-4{
+        margin: 3px;
+        color: white;
+    }
+    .nome-4-1{
+        color: rgb(128, 127, 127);
+    }
+    .patrick-h1{
+        color: white;
+        font-size: 15px;
+        margin-top: -15px;
+    }
+    .patrick-p{
+        margin: 30px 10px;
+        color: #969696;
+        font-size: 12px;
+    }
+    .patrick-img{
+        border: 2px solid hsl(263, 55%, 52%);
+    }
+    .kira-5{
+        grid-column: 1;
+        grid-row: 5;
+        height: 450px;
+        width: 300px;
+        background-color: hsl(0, 0%, 100%);
+        border: 2px solid #e4e4e4;
+        margin: 10px 40px;
+        border-radius: 10px;
+    }
+    .perfil-5{
+        display: flex;
+    }
+    .nomes-5{
+        margin-top: 25px;
+    }
+    .kira-h1{
+        color: #615b5b;
+        font-size: 15px;
+        margin-top: -20px;
+    }
+    .kira-p{
+        margin-top: -30px;
+        color: rgb(163, 160, 160);
+    }
+    .attribution { 
+        font-size: 15px; 
+        text-align: center;
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%);
+        text-decoration: none; 
+    }
+    .attribution a:hover { 
+        color: hsl(0, 92%, 50%);
+    }
+}
